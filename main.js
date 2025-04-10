@@ -62,3 +62,8 @@ function calculateTotalPerson(tipAmountPerson) {
       totalStrong.textContent = `$${tipAmountPerson.toFixed(2)}`
       return
 }
+
+function reset() {
+    bill = 0
+    document.querySelector("")
+}
